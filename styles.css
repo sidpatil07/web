@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Background color for the entire page */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Background color for content container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation effect */
+}
+
+header {
+    background-color: #3498db; /* Header background color */
+    color: black;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    color: #333;
+}
+
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Border for project boxes */
+    padding: 15px;
+    border-radius: 5px; /* Rounded corners for project boxes */
+}
+
+.project h3 {
+    color: #3498db; /* Project title color */
+}
+
+footer {
+    background-color: #333;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Add hover effect for project boxes */
+.project:hover {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease;
+}
